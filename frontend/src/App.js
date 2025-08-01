@@ -10,7 +10,8 @@ import {
 import axios from "axios";
 
 const BACKEND_URL =
-  process.env.REACT_APP_BACKEND_URL || "http://localhost:8000";
+  process.env.REACT_APP_BACKEND_URL ||
+  "https://interndashboard-5arq.onrender.com";
 const API = `${BACKEND_URL}/api`;
 
 // Theme Context
